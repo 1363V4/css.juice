@@ -37,7 +37,7 @@
     <p class="scale-on-hover"><em>But, but, but, I just NEED my gorillon-megabytes sh*tty JS framework :'(</em></p>
     <p class="scale-on-hover">Go on.</p>
     <p class="scale-on-hover">But next time, before you rush to Google to type:</p>
-    <p class="js-fucks scale-on-hover"></p>
+    <p id="js-fucks" class="scale-on-hover"></p>
     <p class="scale-on-hover">Remember:</p>
     <p class="scale-on-hover"><strong>It already exists.</strong></p>
     
@@ -53,7 +53,7 @@
         const currentDate = new Date();
         const currentMonth = currentDate.toLocaleString('en-US', { month: 'long' }).toLowerCase();
         const currentYear = currentDate.getFullYear();
-        const dateElement = document.querySelector('.js-fucks');
+        const dateElement = document.querySelector('#js-fucks');
         dateElement.textContent = `latest styling framework multi-dimensional-hydration-package responsive-fractal-shadow-modular-feng-shui-production quantum-blockchain bleeding-edge metaverse ${currentMonth} ${currentYear} (top) (trending) (new) (updated) (web5) (holographic)`;
     </script>
 </body>
